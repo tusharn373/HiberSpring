@@ -12,7 +12,7 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
 <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
 <property name="url" value="jdbc:mysql://localhost:3306/emp"></property>
 <property name="username" value="root"></property>
-<property name="password" value="tushar97@"></property>
+<property name="password" value="root"></property>
 </bean>
 
 <bean id="sesfactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
